@@ -10,6 +10,7 @@ export const gameState = {
     Symbol : 'O'
   },
   currentPlayer : PLAYERS[this.i % 2],
+  winner : null,
   board : [
     [' ', ' ', ' '], 
     [' ', ' ', ' '],
